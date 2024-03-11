@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SteamAPI Stats & Achievements Integration",
+	"Description": "A SteamAPI stats and achievements integration for Unreal Engine 5.",
+	"Category": "SteamAPI Integration",
+	"CreatedBy": "Artur \"NijoMeisteR\" Dworaczek",
+	"CreatedByURL": "https://dworaczek.uk/",
+	"DocsURL": "https://docs.google.com/document/d/1-LwgW8nd9LF-_ln7inu8hYHu3KbwxfI8lobgdI1-DCk/edit?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ec733baa0ae049d08cda0c3528ebe8d4",
+	"SupportURL": "https://dworaczek.uk/",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "StatsIntegration",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		}
+	]
+}
