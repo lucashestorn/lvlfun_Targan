@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{F53208A4-4E2A-8BE2-043B-EC84B7446B66}",
+	"EngineAssociation": "{87E802B8-4AEC-0316-3466-0EAE8C1B8BC8}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -20,6 +20,28 @@
 		},
 		{
 			"Name": "OnlineSubsystemEOS",
+			"Enabled": true
+		},
+		{
+			"Name": "PlayFab",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/217fdf581b784571af03d3fb6580368f"
+		},
+		{
+			"Name": "StatsIntegration",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ec733baa0ae049d08cda0c3528ebe8d4"
+		},
+		{
+			"Name": "VisualStudioTools",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/362651520df94e4fa65492dbcba44ae2",
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "HttpBlueprint",
 			"Enabled": true
 		}
 	]
