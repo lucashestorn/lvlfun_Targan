@@ -43,6 +43,18 @@
 		{
 			"Name": "HttpBlueprint",
 			"Enabled": true
+		},
+		{
+			"Name": "Edgegap",
+			"Enabled": true
+		},
+		{
+			"Name": "WebBrowserWidget",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionWarping",
+			"Enabled": true
 		}
 	]
 }
